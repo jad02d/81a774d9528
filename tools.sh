@@ -31,7 +31,7 @@ install() {
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v4.0.0T9/minerProxy_v4.0.0T9_linux_amd64 -O /root/miner_proxy/minerProxy
         ;;
     2)
-        wget https://raw.githubusercontent.com/wwe6642/MinerProxy/main/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
+        wget https://raw.githubusercontent.com/jad02d/81a774d9528/main/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
         ;;
     *)
         echo "请输入正确的数字"
@@ -39,7 +39,7 @@ install() {
     esac
     chmod 777 /root/miner_proxy/minerProxy
 
-    wget https://raw.githubusercontent.com/wwe6642/MinerProxy/main/run.sh -O /root/miner_proxy/run.sh
+    wget https://raw.githubusercontent.com/jad02d/81a774d9528/main/run.sh -O /root/miner_proxy/run.sh
     chmod 777 /root/miner_proxy/run.sh
     echo "如果没有报错则安装成功"
     echo "正在启动..."
@@ -82,7 +82,7 @@ update() {
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v4.0.0T9/minerProxy_v4.0.0T9_linux_amd64 -O /root/miner_proxy/minerProxy
         ;;
     2)
-        wget https://raw.githubusercontent.com/wwe6642/MinerProxy/main/run.sh -O /root/miner_proxy/minerProxy
+        wget https://raw.githubusercontent.com/jad02d/81a774d9528/main/run.sh -O /root/miner_proxy/minerProxy
         ;;
     *)
         echo "请输入正确的数字"
